@@ -22,7 +22,6 @@ Aplicação desktop desenvolvida em JavaFX para calcular Índice de Massa Corpor
 
 ## 🚀 Instalação
 
-```bash
 git clone https://github.com/DanielHMoura/calculadora-imc.git
 cd calculadora-imc
 mvn clean install
