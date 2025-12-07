@@ -22,21 +22,28 @@ Aplicação desktop desenvolvida em JavaFX para calcular Índice de Massa Corpor
 
 ## 🚀 Instalação
 
+```bash
 git clone https://github.com/DanielHMoura/calculadora-imc.git
 cd calculadora-imc
 mvn clean install
+```
 
 ## ▶️ Como Executar
 
-Com Maven:
+**Com Maven:**
+```bash
 mvn javafx:run
+```
 
-Com JAR compilado:
+**Com JAR compilado:**
+```bash
 mvn clean package
 java -jar target/calculadora-imc-1.0.jar
+```
 
 ## 📂 Estrutura do Projeto
 
+```
 calculadora-imc/
 ├── src/
 │   ├── main/
@@ -60,58 +67,57 @@ calculadora-imc/
 ├── pom.xml
 ├── README.md
 └── .gitignore
+```
 
 ## 🛠️ Tecnologias Utilizadas
 
-JavaFX 21 - Interface gráfica
-Maven - Gerenciamento de dependências e build
-JUnit 5 - Testes unitários
-Java 11+ - Linguagem
+- **JavaFX 21** - Interface gráfica
+- **Maven** - Gerenciamento de dependências e build
+- **JUnit 5** - Testes unitários
+- **Java 11+** - Linguagem
 
 ## 📖 Como Usar
 
-Abra a aplicação
-Digite o peso (em kg) e a altura (em m)
-Opcionalmente, digite o peso atual para acompanhamento de meta
-Clique em Calcular
-Visualize o resultado, classificação e peso ideal
-Histórico é atualizado automaticamente
-Exporte os dados em CSV quando necessário
+1. Abra a aplicação
+2. Digite o peso (em kg) e a altura (em m)
+3. Opcionalmente, digite o peso atual para acompanhamento de meta
+4. Clique em **Calcular**
+5. Visualize o resultado, classificação e peso ideal
+6. Histórico é atualizado automaticamente
+7. Exporte os dados em CSV quando necessário
 
 ## ✅ Validações
 
-Peso e altura são obrigatórios
-Apenas números, vírgula e ponto são aceitos
-Valores fora dos limites são rejeitados
-Mensagens de erro claras ao usuário
+- Peso e altura são obrigatórios
+- Apenas números, vírgula e ponto são aceitos
+- Valores fora dos limites são rejeitados
+- Mensagens de erro claras ao usuário
 
-##📊 Estatísticas
+## 📊 Estatísticas
 
 A aplicação mantém em tempo real:
-IMC Médio de todos os cálculos
-Peso Médio de todos os registros
 
-##💾 Exportação CSV
+- **IMC Médio** de todos os cálculos
+- **Peso Médio** de todos os registros
+
+## 💾 Exportação CSV
 
 Os dados podem ser exportados em formato CSV com as colunas:
-Data/Hora
-Peso
-IMC
-Classificação
-Peso Atual (se preenchido)
 
-##📝 Exemplos de Classificação IMC
+- Data/Hora
+- Peso
+- IMC
+- Classificação
+- Peso Atual (se preenchido)
 
-IMC
-Classificação
-< 18.5
-Abaixo do peso
-18.5 - 24.9
-Peso normal
-25.0 - 29.9
-Sobrepeso
-≥ 30.0
-Obeso
+## 📝 Exemplos de Classificação IMC
+
+| IMC | Classificação |
+|-----|---------------|
+| < 18.5 | Abaixo do peso |
+| 18.5 - 24.9 | Peso normal |
+| 25.0 - 29.9 | Sobrepeso |
+| ≥ 30.0 | Obeso |
 
 ## 🤝 Contribuindo
 
@@ -120,3 +126,7 @@ Sinta-se livre para fazer fork, criar branches e submeter pull requests!
 ## 📄 Licença
 
 Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
+
+---
+
+**Desenvolvido por [Daniel H. Moura](https://github.com/DanielHMoura)**
